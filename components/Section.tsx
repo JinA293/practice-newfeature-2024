@@ -5,11 +5,13 @@ import CodeEditor from './Editor';
 
 interface SectionProps {
   title: string;
+  htmlCodeProps: string;
+  cssCodeProps: string;
 }
 
-const Section = ({ title }: SectionProps) => {
-  const [htmlCode, setHtmlCode] = useState<string>('<div>ここにHTMLを記述</div>');
-  const [cssCode, setCssCode] = useState<string>('div { color: black; }');
+const Section = ({ title, htmlCodeProps, cssCodeProps }: SectionProps) => {
+  const [htmlCode, setHtmlCode] = useState<string>(htmlCodeProps);
+  const [cssCode, setCssCode] = useState<string>(cssCodeProps);
 
   return (
     <div style={{ marginBottom: '20px' }}>
