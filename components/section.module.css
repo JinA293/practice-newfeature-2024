@@ -1,0 +1,20 @@
+.sectionContainer {
+    width: 100%;
+  }
+  
+  .previewArea {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    min-height: 150px;
+    max-width: 100%;
+    width: 100%; /* セクションの幅を一律に設定 */
+    box-sizing: border-box; /* パディングとボーダーを含めて幅を計算 */
+    overflow: visible; /* コンテンツがセクションの幅を超えないようにする */
+  }
+  
+  .editorContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }

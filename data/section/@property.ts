@@ -1,14 +1,14 @@
 // sectionData.ts
-export const section1 = 
+export const atproperty = 
   {
-    title: "セクション1",
+    title: "@property",
     htmlCode: `
-      <div class="section1">
+      <div class="atproperty">
         <textarea placeholder="伸びるよーん"></textarea>
       </div>
     `,
     cssCode: `
-          .section1 textarea {
+          .atproperty textarea {
             field-sizing: content;
             background-color: #f0f0f0;
             color: black;

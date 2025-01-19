@@ -166,3 +166,46 @@ a.secondary {
     filter: invert();
   }
 }
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 0;
+  scroll-behavior: smooth;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+.section {
+  scroll-snap-align: start;
+  height: 100vh;
+  box-sizing: border-box; /* パディングとボーダーを含めて幅を計算 */
+  overflow: hidden; /* コンテンツがセクションの幅を超えないようにする */
+  margin: auto;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navStyle {
+  position: fixed;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dotStyle {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50%;
+  text-decoration: none;
+}

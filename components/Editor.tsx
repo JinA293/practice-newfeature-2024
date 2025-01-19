@@ -13,10 +13,10 @@ const CodeEditor = ({ language, value, onChange }: CodeEditorProps) => {
       <Editor
         height="200px"
         language={language}
-        theme="light"
+        theme="vs-dark"
         value={value}
         onChange={onChange}
-        options={{ fontSize: 14, minimap: { enabled: false } }}
+        options={{ fontSize: 16, minimap: { enabled: false } }}
       />
     </div>
   );

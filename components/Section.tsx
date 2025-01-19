@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import CodeEditor from './Editor';
+import styles from './section.module.css';
 
 interface SectionProps {
   title: string;
@@ -14,27 +15,22 @@ const Section = ({ title, htmlCodeProps, cssCodeProps }: SectionProps) => {
   const [cssCode, setCssCode] = useState<string>(cssCodeProps);
 
   return (
-    <div style={{ marginBottom: '20px' }}>
-      <h2>{title}</h2>
+    <div className={styles.sectionContainer}>
+      <h1>{title}</h1>
       {/* プレビューエリア */}
-      <div
-        style={{
-          border: '1px solid #ddd',
-          padding: '10px',
-          marginBottom: '10px',
-          minHeight: '150px',
-        }}
-      >
+      <div className={styles.previewArea}>
         <style>{cssCode}</style>
         <div dangerouslySetInnerHTML={{ __html: htmlCode }} />
       </div>
       {/* エディタ */}
-      <div style={{ display: 'flex', gap: '10px' }}>
+      <div className={styles.editorContainer}>
+        <h1>HTML</h1>
         <CodeEditor
           language="html"
           value={htmlCode}
           onChange={(value) => setHtmlCode(value || '')}
         />
+        <h1>CSS</h1>
         <CodeEditor
           language="css"
           value={cssCode}
