@@ -1,28 +1,28 @@
 import styles from './page.module.css';
 import Section from '../components/Section';
 
-import { lightdark } from '@/data/section/lightDarkDisplay';
+import { lightDarkDisplay } from '@/data/section/lightDarkDisplay';
 import { thePopoverAPI } from '@/data/section/thePopoverAPI';
 import { textWrap } from '@/data/section/textWrap';
-import { rubyalign } from '@/data/section/rubyAlign';
+import { rubyAlign } from '@/data/section/rubyAlign';
 import { exclusive } from '@/data/section/exclusive';
-import { uservalid } from '@/data/section/userValid';
+import { userValid } from '@/data/section/userValid';
 import { relativeColor } from '@/data/section/relativeColor';
-import { scrollbehavior } from '@/data/section/scrollBehavior';
+import { scrollBehavior } from '@/data/section/scrollBehavior';
 
 import Intro from '@/components/Intro';
 import Title from '@/components/Title';
 
 
 const sections = [
-  { ...scrollbehavior },
-  { ...lightdark },
-  { ...relativeColor },
-  { ...uservalid },
-  { ...textWrap },
+  { ...lightDarkDisplay },
   { ...thePopoverAPI },
-  { ...rubyalign },
+  { ...textWrap },
+  { ...rubyAlign },
   { ...exclusive },
+  { ...userValid },
+  { ...relativeColor },
+  { ...scrollBehavior },
 ]
 
 export default function Home() {

@@ -1,5 +1,5 @@
 // sectionData.ts
-export const rubyalign = 
+export const rubyAlign = 
   {
     title: "ruby-align",
     htmlCode: `

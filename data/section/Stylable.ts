@@ -1,5 +1,5 @@
 // sectionData.ts
-export const Stylable = 
+export const stylable = 
   {
     title: "Stylable",
     htmlCode: `

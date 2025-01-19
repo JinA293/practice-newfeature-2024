@@ -1,4 +1,4 @@
-export const lightdark = {
+export const lightDarkDisplay = {
   title: "light-dark()",
   htmlCode: `
     <div class="light-dark">

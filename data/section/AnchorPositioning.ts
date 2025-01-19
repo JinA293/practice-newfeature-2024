@@ -1,4 +1,4 @@
-export const AnchorPositioning = {
+export const anchorPositioning = {
   title: "Anchor Positioning",
   htmlCode: `
     <div class="AnchorPositioning">

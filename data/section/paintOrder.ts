@@ -1,5 +1,5 @@
 // sectionData.ts
-export const paintorder = 
+export const paintOrder = 
   {
     title: "paint-order",
     htmlCode: `

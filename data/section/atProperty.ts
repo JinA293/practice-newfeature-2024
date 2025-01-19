@@ -1,5 +1,5 @@
 // sectionData.ts
-export const atproperty = 
+export const atProperty = 
   {
     title: "@property",
     htmlCode: `

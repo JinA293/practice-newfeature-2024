@@ -1,5 +1,5 @@
 // sectionData.ts
-export const CrossDocumentViewTransitions = 
+export const crossDocumentViewTransitions = 
   {
     title: "Cross-DocumentViewTransitions",
     htmlCode: `

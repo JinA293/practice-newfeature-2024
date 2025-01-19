@@ -1,5 +1,5 @@
 // sectionData.ts
-export const lightdark = 
+export const lightDarkText = 
   {
     title: "light-dark()",
     htmlCode: `

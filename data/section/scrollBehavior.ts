@@ -1,5 +1,5 @@
 // sectionData.ts
-export const scrollbehavior = {
+export const scrollBehavior = {
   title: "scrollbehavior",
   htmlCode: `
     <div class="row gap align-top">

@@ -1,4 +1,4 @@
-export const ScrollSnapEvents = {
+export const scrollSnapEvents = {
   title: "ScrollSnapEvents",
   htmlCode: `
     <div class="ScrollSnapEvents">

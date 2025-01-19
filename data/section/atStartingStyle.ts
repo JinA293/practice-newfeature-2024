@@ -1,5 +1,5 @@
 // sectionData.ts
-export const atstartingstyle = 
+export const atStartingStyle = 
   {
     title: "@starting-style",
     htmlCode: `

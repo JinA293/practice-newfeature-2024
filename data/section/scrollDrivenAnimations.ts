@@ -1,5 +1,5 @@
 // sectionData.ts
-export const ScrollDrivenAnimations = 
+export const scrollDrivenAnimations = 
   {
     title: "Scroll-DrivenAnimations",
     htmlCode: `

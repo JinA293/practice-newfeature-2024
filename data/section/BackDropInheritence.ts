@@ -1,5 +1,5 @@
 // sectionData.ts
-export const BackDropInheritence = 
+export const backDropInheritence = 
   {
     title: "BackDropInheritence",
     htmlCode: `

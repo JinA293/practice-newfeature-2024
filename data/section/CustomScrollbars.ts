@@ -1,4 +1,4 @@
-export const CustomScrollbars = {
+export const customScrollbars = {
   title: "Custom Scrollbars",
   htmlCode: `
     <div class="CustomScrollbars">

@@ -1,5 +1,5 @@
 // sectionData.ts
-export const uservalid = {
+export const userValid = {
   title: "user-valid",
   htmlCode: `
     <section class="section">
