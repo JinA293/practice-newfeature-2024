@@ -21,8 +21,6 @@ export const textWrap = {
     .text-wrap {
       width: 100%;
       font-size: 1rem;
-      display: grid;
-      place-content: center;
     }
 
     .text-wrap #demo {
