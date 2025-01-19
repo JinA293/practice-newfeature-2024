@@ -2,10 +2,10 @@ import styles from './page.module.css';
 import Section from '../components/Section';
 
 import { lightdark } from '@/data/section/lightDarkDisplay';
-import { thePopoverAPI } from '@/data/section/ThePopoverAPI';
+import { thePopoverAPI } from '@/data/section/thePopoverAPI';
 import { textWrap } from '@/data/section/textWrap';
 import { rubyalign } from '@/data/section/rubyAlign';
-import { exclusive } from '@/data/section/Exclusive';
+import { exclusive } from '@/data/section/exclusive';
 import { uservalid } from '@/data/section/userValid';
 import { relativeColor } from '@/data/section/relativeColor';
 import { scrollbehavior } from '@/data/section/scrollBehavior';
