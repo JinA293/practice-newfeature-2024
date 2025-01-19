@@ -34,5 +34,9 @@ export const lightdark = {
       background-color: var(--primary-background);
       transition: color 0.4s, background-color 0.4s;
     }
+
+    .light-dark {
+      font-size: 1.5rem;
+    }
   `,
 };
