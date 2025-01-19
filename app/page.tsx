@@ -1,14 +1,14 @@
 import styles from './page.module.css';
 import Section from '../components/Section';
 
-import { lightdark } from '@/data/section/light-dark-display';
-import { ThePopoverAPI } from '@/data/section/ThePopoverAPI';
-import { textWrap } from '@/data/section/text-wrap';
-import { rubyalign } from '@/data/section/ruby-align';
-import { Exclusive } from '@/data/section/Exclusive';
-import { uservalid } from '@/data/section/user-valid';
+import { lightdark } from '@/data/section/lightDarkDisplay';
+import { ThePopoverAPI } from '@/data/section/thePopoverAPI';
+import { textWrap } from '@/data/section/textWrap';
+import { rubyalign } from '@/data/section/rubyAlign';
+import { Exclusive } from '@/data/section/exclusive';
+import { uservalid } from '@/data/section/userValid';
 import { relativeColor} from '@/data/section/relativeColor';
-import { scrollbehavior } from '@/data/section/scroll-behavior';
+import { scrollbehavior } from '@/data/section/scrollBehavior';
 
 const sections = [
     { ...scrollbehavior },

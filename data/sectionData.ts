@@ -4,18 +4,18 @@ import { Exclusive } from './section/Exclusive';
 import { Stylable } from './section/Stylable';
 import { AnchorPositioning } from './section/AnchorPositioning';
 import { CustomScrollbars } from './section/CustomScrollbars';
-import { CrossDocumentViewTransitions } from './section/Cross-DocumentViewTransitions';
-import { ScrollDrivenAnimations } from './section/Scroll-DrivenAnimations';
+import { CrossDocumentViewTransitions } from './section/crossDocumentViewTransitions';
+import { ScrollDrivenAnimations } from './section/scrollDrivenAnimations';
 import { ScrollSnapEvents } from './section/ScrollSnapEvents';
 import { BackDropInheritence } from './section/BackDropInheritence';
-import { lightdark } from './section/light-dark-text';
-import { atproperty } from './section/@property';
+import { lightdark } from './section/lightDarkText';
+import { atproperty } from './section/atProperty';
 import { ThePopoverAPI } from './section/ThePopoverAPI';
-import { atstartingstyle } from './section/@starting-style';
-import { rubyalign } from './section/ruby-align';
-import { paintorder } from './section/paint-order';
+import { atstartingstyle } from './section/atStartingStyle';
+import { rubyalign } from './section/rubyAlign';
+import { paintorder } from './section/paintOrder';
 import { CSSOMNestedDeclarationsFooter } from './section/CSSOMNestedDeclarationsFooter';
-import { textWrap } from './section/text-wrap';
+import { textWrap } from './section/textWrap';
 import { hidden } from './section/hidden';
 
 
