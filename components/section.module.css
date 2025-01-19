@@ -9,11 +9,10 @@
     padding: 10px;
     min-height: 150px;
     min-width: 30%;
-    width: 50%;
     box-sizing: border-box;
     overflow: visible;
     height: 768px;
-    display: flex;
+    width: 100%;
   }
 
   .editorContainer {
