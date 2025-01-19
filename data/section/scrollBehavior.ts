@@ -8,9 +8,9 @@ export const scrollbehavior = {
       <label><input name="scroll" type="radio" value="smooth" checked> smooth</label>
     </div>
     <nav class="navclass">
-      <a href="#demo1">1</a>
-      <a href="#demo2">2</a>
-      <a href="#demo3">3</a>
+      <a class="aclass" href="#demo1">1</a>
+      <a class="aclass" href="#demo2">2</a>
+      <a class="aclass" href="#demo3">3</a>
     </nav>
     <div class="scroll-container">
       <div class="scroll-page" id="demo1">1</div>
@@ -34,34 +34,32 @@ export const scrollbehavior = {
     :root:has(input[name="scroll"][value="smooth"]:checked) {
       --scroll-behavior: smooth;
     }
-
-    .row {
-      display: flex;
-      gap: 10px;
-      align-items: flex-start;
+    .aclass {
+      display: inline-block;
+      width: 50px;
+      text-decoration: underline;
     }
-
+    .navclass,
+    .scroll-container {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+    }
     .navclass {
-      display: flex;
-      gap: 10px;
-      margin-top: 20px;
+      width: 339px;
+      padding: 5px;
     }
-
     .scroll-container {
       height: 150px;
       overflow-y: scroll;
-      border: 1px solid #ccc;
-      scroll-snap-type: x mandatory;
+      scroll-behavior: var(--scroll-behavior);
     }
-
     .scroll-page {
-      height: 150px;
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-bottom: 10px;
-      font-size: 3em;
-      scroll-snap-align: start;
+      height: 100%;
+      font-size: 5em;
     }
   `,
 };
