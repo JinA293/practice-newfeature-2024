@@ -18,15 +18,20 @@ export const textWrap = {
     </div>
   `,
   cssCode: `
-    .text-wrap #demo {
+    .text-wrap {
       width: 100%;
-      font-size: 16px;
+      font-size: 1rem;
+      display: grid;
+      place-content: center;
+    }
+
+    .text-wrap #demo {
+      font-size: 1.2rem;
     }
 
     .text-wrap body {
       display: grid;
       place-content: center;
-      font-family: system-ui, sans-serif;
       height: 100vh;
       margin: 0;
     }
