@@ -42,6 +42,7 @@ a {
 }
 
 :root {
-	scroll-behavior: smooth;
+	scroll-behavior: var(--scroll-behavior);
   overflow-y: 'scroll';
+  scrollbar-width: none;
 }

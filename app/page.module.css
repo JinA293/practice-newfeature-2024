@@ -171,12 +171,9 @@ a.secondary {
   width: 80vw;
   margin: 0 auto;
   padding: 0;
-  scroll-behavior: smooth;
-  height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
   scrollbar-width: none;
-  scroll-behavior: smooth;
 }
 
 .section {
@@ -194,7 +191,7 @@ a.secondary {
 .navStyle {
   position: fixed;
   top: 50%;
-  right: 10px;
+  right: 4.5vw;
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
