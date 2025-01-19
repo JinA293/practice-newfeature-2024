@@ -8,9 +8,10 @@ import { rubyalign } from '@/data/section/ruby-align';
 import { Exclusive } from '@/data/section/Exclusive';
 import { uservalid } from '@/data/section/user-valid';
 import { relativeColor} from '@/data/section/relativeColor';
+import { scrollbehavior } from '@/data/section/scroll-behavior';
 
 const sections = [
-    // scroll-behavior: smooth;
+    { ...scrollbehavior },
     { ...lightdark },
     { ...relativeColor },
     { ...uservalid },
