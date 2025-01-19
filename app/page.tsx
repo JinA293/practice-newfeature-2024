@@ -15,14 +15,14 @@ import Title from '@/components/Title';
 
 
 const sections = [
+  { ...scrollBehavior },
   { ...lightDarkDisplay },
-  { ...thePopoverAPI },
   { ...textWrap },
   { ...rubyAlign },
-  { ...exclusive },
   { ...userValid },
   { ...relativeColor },
-  { ...scrollBehavior },
+  { ...thePopoverAPI },
+  { ...exclusive },
 ]
 
 export default function Home() {
