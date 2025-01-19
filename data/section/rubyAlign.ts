@@ -40,12 +40,17 @@ export const rubyalign =
       gap: 20px;
     }
 
+    #ruby-align {
+      font-size: 1.5em;
+      box-sizing: border-box;
+    }
+
     ruby {
-      font-size: 2em; /* フォントサイズを大きく */
+      font-size: 2em;
     }
 
     rt {
-      font-size: 0.75em; /* ルビサイズを大きく */
+      font-size: 0.75em;
     }
     
     `,
