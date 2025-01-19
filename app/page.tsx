@@ -11,6 +11,8 @@ import { relativeColor } from '@/data/section/relativeColor';
 import { scrollbehavior } from '@/data/section/scrollBehavior';
 
 import Intro from '@/components/Intro';
+import Title from '@/components/Title';
+
 
 const sections = [
   { ...scrollbehavior },
@@ -26,11 +28,14 @@ const sections = [
 export default function Home() {
   return (
     <div className={styles.container}>
-      <div id={`page-0`} className={styles.section}>
+      <div id={`page--2`} className={styles.section}>
         <Intro />
       </div>
+      <div id={`page--1`} className={styles.section}>
+        <Title />
+      </div>
       {sections.map((section, index) => (
-        <div id={`page-${index + 1}`} key={index} className={styles.section}>
+        <div id={`page-${index}`} key={index} className={styles.section}>
           <Section
             title={section.title}
             htmlCodeProps={section.htmlCode}
@@ -39,9 +44,10 @@ export default function Home() {
         </div>
       ))}
       <nav className={styles.navStyle}>
-          <a key={0} href={`#page-0`} className={styles.dotStyle}></a>
+          <a href={`#page--2`} className={styles.dotStyle}></a>
+          <a href={`#page--1`} className={styles.dotStyle}></a>
         {sections.map((_, index) => (
-          <a key={index} href={`#page-${index + 1}`} className={styles.dotStyle}></a>
+          <a key={index} href={`#page-${index}`} className={styles.dotStyle}></a>
         ))}
       </nav>
     </div>
