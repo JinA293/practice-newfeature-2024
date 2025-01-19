@@ -1,4 +1,4 @@
-export const AnimateToHeightAuto = {
+export const animateToHeightAuto = {
   title: "Animate To Height Auto",
   htmlCode: `
     <div class="AnimateToHeightAuto">

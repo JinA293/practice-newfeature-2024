@@ -1,4 +1,4 @@
-export const ThePopoverAPI = {
+export const thePopoverAPI = {
   title: "ThePopoverAPI",
   htmlCode: `
     <div class="ThePopoverAPI">

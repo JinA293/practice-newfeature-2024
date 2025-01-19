@@ -1,7 +1,7 @@
 // ref: https://coliss.com/articles/build-websites/operation/css/exclusive-accordion.html
 // ref: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
 
-export const Exclusive = {
+export const exclusive = {
   title: "Exclusive",
   htmlCode: `
     <div class="Exclusive">

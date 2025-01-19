@@ -1,5 +1,5 @@
 // sectionData.ts
-export const FieldSizing = 
+export const fieldSizing = 
   {
     title: "FieldSizing",
     htmlCode: `

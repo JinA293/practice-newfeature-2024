@@ -1,6 +1,6 @@
-import { FieldSizing } from './section/FieldSizing';
-import { AnimateToHeightAuto } from './section/AnimateToHeightAuto';
-import { Exclusive } from './section/Exclusive';
+import { fieldSizing } from './section/FieldSizing';
+import { animateToHeightAuto } from './section/AnimateToHeightAuto';
+import { exclusive } from './section/Exclusive';
 import { Stylable } from './section/Stylable';
 import { AnchorPositioning } from './section/AnchorPositioning';
 import { CustomScrollbars } from './section/CustomScrollbars';
@@ -10,7 +10,7 @@ import { ScrollSnapEvents } from './section/ScrollSnapEvents';
 import { BackDropInheritence } from './section/BackDropInheritence';
 import { lightdark } from './section/lightDarkText';
 import { atproperty } from './section/atProperty';
-import { ThePopoverAPI } from './section/ThePopoverAPI';
+import { thePopoverAPI } from './section/ThePopoverAPI';
 import { atstartingstyle } from './section/atStartingStyle';
 import { rubyalign } from './section/rubyAlign';
 import { paintorder } from './section/paintOrder';
@@ -20,9 +20,9 @@ import { hidden } from './section/hidden';
 
 
 export const sections = [
-  { ...FieldSizing },
-  { ...AnimateToHeightAuto },
-  { ...Exclusive },
+  { ...fieldSizing },
+  { ...animateToHeightAuto },
+  { ...exclusive },
   // { ...Stylable },
   { ...AnchorPositioning },
   { ...CustomScrollbars },
@@ -32,7 +32,7 @@ export const sections = [
   // { ...BackDropInheritence },
   { ...lightdark },
   // { ...atproperty },
-  { ...ThePopoverAPI },
+  { ...thePopoverAPI },
   // { ...atstartingstyle },
   { ...rubyalign },
   { ...paintorder },
