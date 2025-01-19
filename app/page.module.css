@@ -179,13 +179,10 @@ a.secondary {
 .section {
   scroll-snap-align: start;
   height: 100vh;
-  box-sizing: border-box; /* パディングとボーダーを含めて幅を計算 */
-  overflow: hidden; /* コンテンツがセクションの幅を超えないようにする */
+  box-sizing: border-box;
+  overflow: hidden;
   margin: auto;
-  display: flex;
   align-content: center;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .navStyle {
@@ -200,9 +197,14 @@ a.secondary {
 
 .dotStyle {
   display: block;
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   background-color: #000;
   border-radius: 50%;
   text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.dotStyle:hover {
+  transform: scale(1.2); /* ホバー時に少し拡大 */
 }

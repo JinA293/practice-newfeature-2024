@@ -34,6 +34,7 @@ export const exclusive = {
       font-size: 1em;
       background: white;
       padding: 0.5em;
+      min-width: 300px;
     }
 
     .Exclusive .course details {

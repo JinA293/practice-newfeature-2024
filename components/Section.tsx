@@ -15,8 +15,9 @@ const Section = ({ title, htmlCodeProps, cssCodeProps }: SectionProps) => {
   const [cssCode, setCssCode] = useState<string>(cssCodeProps);
 
   return (
-    <div className={styles.sectionContainer}>
-      <h1>{title}</h1>
+    <>
+      <h1 className={styles.title}>{title}</h1>
+      <div className={styles.sectionContainer}>
       {/* プレビューエリア */}
       <div className={styles.previewArea}>
         <style>{cssCode}</style>
@@ -28,16 +29,15 @@ const Section = ({ title, htmlCodeProps, cssCodeProps }: SectionProps) => {
         <CodeEditor
           language="html"
           value={htmlCode}
-          onChange={(value) => setHtmlCode(value || '')}
-        />
+          onChange={(value) => setHtmlCode(value || '')} />
         <h1>CSS</h1>
         <CodeEditor
           language="css"
           value={cssCode}
-          onChange={(value) => setCssCode(value || '')}
-        />
+          onChange={(value) => setCssCode(value || '')} />
       </div>
     </div>
+    </>
   );
 };
 

@@ -11,7 +11,8 @@ const CodeEditor = ({ language, value, onChange }: CodeEditorProps) => {
   return (
     <div style={{ flex: 1, border: '1px solid #ddd', marginTop: '10px' }}>
       <Editor
-        height="200px"
+        height="350px"
+        width="1000px"
         language={language}
         theme="vs-dark"
         value={value}

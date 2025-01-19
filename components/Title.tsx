@@ -12,7 +12,8 @@ const Title = () => {
                     <p className={styles.text}>- 最近たまたま見た記事で新機能まとめみたいなのがあった</p>
                     <p className={styles.text}>- ただ業務をこなしたりドメイン知識得たりだけでなく未来にも目を向けたい</p>
                     <p className={styles.text}>- 業務で新しくbaselineになった機能を提案して少しづついいプロダクトにできたら面白そう</p>
-                    <p className={styles.text}>- お勉強ついでに自分で触りながら色々見てみよう</p>
+                    <p className={styles.text}>- 勉強ついでに自分で触りながら色々見てみよう〜</p>
+                    <p className={styles.text}>（ちなみに紹介するのは主要ブラウザ対応済みのものだけ）</p>
                 </div>
             </div>
         </div>
